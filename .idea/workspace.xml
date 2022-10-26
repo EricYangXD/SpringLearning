@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="319f1930-4d6e-4638-9ade-c177dc38e556" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/spring_01_quickstart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_01_quickstart/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_02_base_config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickstart/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/ServletContainerInitConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/SpringMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickstart/src/main/java/org/example/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickstart/src/main/java/org/example/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickstart/src/main/java/org/example/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickstart/src/main/java/org/example/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickstart/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_01_quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_01_quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring_02_base_config/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +52,14 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/Users/valtechwh/backend/RestCase/spring_01_quickstart/src/main/resources",
+    "last_opened_file_path": "/Users/valtechwh/backend/SpringLearn/spring_02_base_config/src",
     "nodejs_package_manager_path": "npm",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring_02_base_config/src" />
       <recent name="$PROJECT_DIR$/spring_01_quickstart/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring_01_quickstart/src/main/java" />
     </key>
@@ -100,6 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666772640200</updated>
       <workItem from="1666772641659" duration="3879000" />
+      <workItem from="1666776984477" duration="536000" />
     </task>
     <servers />
   </component>
