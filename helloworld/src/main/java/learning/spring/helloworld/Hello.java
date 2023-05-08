@@ -8,8 +8,8 @@ public class Hello {
         return "Hello World!" + name;
     }
 
-    public String sayHello() {
-        return "Hello " + name + "!";
+    public String sayHello(String name) {
+        return "hello:" + name;
     }
 
     public void setName(String name) {

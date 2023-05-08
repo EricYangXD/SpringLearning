@@ -53,10 +53,13 @@ package learning.spring.helloworld;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.sql.SQLOutput;
 
 @SpringBootApplication
+@RestController
 public class Application {
 
     private ClassPathXmlApplicationContext parentContext;
@@ -90,5 +93,9 @@ public class Application {
         System.out.println("sayHello from " + context.getId() + ": " + context.getBean(beanName, Hello.class).hello());
     }
 
+    @GetMapping("/")
+    public String get() {
+        return "Hello World!";
+    }
 
 }
