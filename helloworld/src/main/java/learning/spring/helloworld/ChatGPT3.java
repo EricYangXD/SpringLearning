@@ -19,7 +19,7 @@ public class ChatGPT3 {
 
 
         // System.getenv("OPENAI_TOKEN");
-        String token = "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";
+        String token = "sk-0ywi";
 
         OpenAiService service = new OpenAiService(token);
         CompletionRequest completionRequest = CompletionRequest.builder()
